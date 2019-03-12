@@ -48,3 +48,9 @@ input {
 #clear {
   background-color: #FFA1A1;
 }
+
+.title {
+  text-align: center;
+  color: purple;
+  font-size: 36pt;
+}
