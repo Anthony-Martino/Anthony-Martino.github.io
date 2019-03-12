@@ -51,6 +51,7 @@ input {
 
 .title {
   text-align: center;
+  vertical-align: center;
   color: purple;
   font-size: 36pt;
 }
