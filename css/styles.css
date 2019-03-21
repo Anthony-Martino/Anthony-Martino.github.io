@@ -1,15 +1,32 @@
 html,
 body {
-    font-family:'Open Sans', sans-serif;
+    font-family: "Roboto Slab", serif;
     text-align: center;
 }
+/*
+colors: 
+color: #242424 dark gray
+color: #1F2833 blue gray
+color: #C5C6C7 light gray
+color: #66FCF1 teal
+color: #45A29E dark teal
+
+*/
 
 * { 
     margin: 0;
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* ----------------- Begin Nav bar -------------------*/
 nav ul {
+    display: flex;
+    justify-content: space-evenly;
     text-align: right;
     position: fixed;
     width: 100%;
@@ -17,60 +34,80 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 55px;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    display: flex;
+    margin: 10px;
+
 }
-
-nav ul li a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: pink;
-  }
-
+/* ----------------- End Nav bar -------------------------*/
+/* ----------------- Begin Home Section -------------------*/
 .home {
+    background:url(https://i.imgur.com/ejxFVS5.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
     top: 0;
-    background: whitesmoke;
     min-height: 55vh;
     padding-top: 45vh; 
+}
+
+.home h1 {
+    color: #66FCF1;
 }
 
 .home p {
-    color: rgb(7, 78, 119);
+    color: #45A29E;
 }
-
+/* ----------------- End Home Section -------------------*/
+/* ----------------- Begin About Section -------------------*/
 .about {
     top: 0;
-    background: whitesmoke;
+    background: #C5C6C7;
     min-height: 55vh;
     padding-top: 45vh; 
 }
 
+/* ----------------- End About Section -------------------*/
+/* ----------------- Begin Resume Section -------------------*/
 .resume {
     top: 0;
     background: whitesmoke;
     min-height: 55vh;
     padding-top: 45vh; 
 }
-
+/* ----------------- End Resume Section -------------------*/
+/* ----------------- Begin Contact Section -------------------*/
 .contact {
     top: 0;
-    background: whitesmoke;
+    background: #C5C6C7;
     min-height: 55vh;
     padding-top: 45vh; 
 }
+/* ----------------- End Contact Section -------------------*/
+/* ----------------- Begin Footer Section -------------------*/
 
 footer {
-    padding: 20px;
+    padding: 10px;
     background: #242424;
     color: whitesmoke;
-    line-height: 40px;
+    line-height: 10px;
   }
   
 footer a {
     color: whitesmoke;
 }
+/* ----------------- End Footer Section -------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
