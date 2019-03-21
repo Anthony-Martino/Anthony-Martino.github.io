@@ -1,0 +1,76 @@
+html,
+body {
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: #242424;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: pink;
+  }
+
+.home {
+    top: 0;
+    background: whitesmoke;
+    min-height: 55vh;
+    padding-top: 45vh; 
+}
+
+.home p {
+    color: rgb(7, 78, 119);
+}
+
+.about {
+    top: 0;
+    background: whitesmoke;
+    min-height: 55vh;
+    padding-top: 45vh; 
+}
+
+.resume {
+    top: 0;
+    background: whitesmoke;
+    min-height: 55vh;
+    padding-top: 45vh; 
+}
+
+.contact {
+    top: 0;
+    background: whitesmoke;
+    min-height: 55vh;
+    padding-top: 45vh; 
+}
+
+footer {
+    padding: 20px;
+    background: #242424;
+    color: whitesmoke;
+    line-height: 40px;
+  }
+  
+footer a {
+    color: whitesmoke;
+}
