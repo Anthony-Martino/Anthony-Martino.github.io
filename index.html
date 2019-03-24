@@ -15,7 +15,8 @@
         <ul id='navbar'>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -43,41 +44,48 @@
 
             </p>
     </div>
+    <div id="portfolio" class="portfolio">
+        <h1>My Works</h1>
+        <div class="projectRow">
+            <h4>National Parks Weather Service Web App</h4>
+            <a href="https://github.com/Anthony-Martino/tech-elevator-capstones/tree/master/m3-12_Capstone" target="_blank" class="image"><img src="/img/nationalWeatherServiceGif.gif" alt="" /></a>
+            <div class="projectDetails">
+                    <p> Provided wireframes and a user story I developed a dynamic web application to display National Parks information with a partner over the course of 3 days. Users can select a park for detailed information including a weather forecast and the ability to take a daily survey. Technologies used include Java, Spring Web MVC, Tomcat, JSTL, JSP EL, PostgreSQL, HTML, CSS, JUnit, Selenium, and Cucumber. Click the image to check out the code! </p>
+            </div>
+        </div>
+        <div class="projectRow">
+            <h4>National Parks Campsite Reservation App</h4>
+            <a href="https://github.com/Anthony-Martino/tech-elevator-capstones/tree/master/m2-09-Capstone" target="_blank" class="image"><img src="img/campgroundCLI.png" alt="" /></a>
+            <div class="projectDetails">
+                <p>With a partner over the course of 4 days I developed command line interface software to reserve national parks campsites in Java. Implements JDBC with PostgreSQL to write user input to database. Integration and unit tested. Click the image to check out the code! </p>
+            </div>
+        </div>
+        <div class="projectRow">
+            <h4>Vending Machine Software</h4>
+            <a href="https://github.com/Anthony-Martino/tech-elevator-capstones/tree/master/m1-19_Capstone" target="_blank" class="image"><img src="img/vendingMachine.png" alt="" /></a>
+            <div class="projectDetails">
+                <p>With a pair programming partner over the course of four days I developed a command line interface vending machine in Java using test driven development. It loads inventory from a csv file and writes a sales log to txt file. Unit Tested.  Click the image to check out the code!</p>
+                
+            </div>
+        </div>
+    </div>
     <div class="boyAndHisDog">   
     </div>
-
-    <div id="resume" class="resume">
-        <div class = projectRow>
-        </div>
-        <div class = projectRow>
-        </div>
-        <div class = projectRow>
-        </div>
-
-    
+      
+    <div class="contact-header">
+        <h1>Let's work together...</h1>
+        <p>insert cute phrase here</p>
     </div>
     <div id="contact" class="contact">
-        <form id="contact" action="http://formspree.io/martino.anthony.r@gmail.com" method="post">
-            <h3>Contact</h3>
-            <fieldset>
-                <input placeholder="Your name" type="text" name="name" required>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Email Address" type="email" name="email" required>
-            </fieldset>
-            <fieldset>
-                <textarea placeholder="Type your Message Here...." name="message" required></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-        </form>
-                 
-        <div class="contact-header">
-            <h1>Let's work together...</h1>
-            <p>insert cute phrase here</p>
+        <div class="container">
+            <form name="htmlform" method="post" action="http://formspree.io/martino.anthony.r@gmail.com">
+                <input type="text" name="name" placeholder="Name" required>      
+                <input  type="email" name="email" placeholder="Email" required>    
+                <textarea name="comments" placeholder="Message" required ></textarea>    
+                <button name="send" type="submit" class="submit">SEND</button> 
+            </form>   
         </div>
-
+    </div> 
         <a href="https://github.com/Anthony-Martino" target="_blank" class="contact-details">GitHub</a>
         <a href="mailto:martino.anthony.r@gmail.com" class="contact-details">Send an email</a>
         <a href="tel:614-448-6043" class="contact-details">Call me</a>
