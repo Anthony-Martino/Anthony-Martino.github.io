@@ -164,9 +164,10 @@ font-size: 3vh;
 /* ----------------- Begin Contact Section -------------------*/
 .contact {
     top: 0;
-    background: whitesmoke;
-    max-height: 55vh;
-    padding-top: 45vh; 
+    background-color: #242424;
+    min-height: 15vh;
+    padding-top: 5vh; 
+    color: whitesmoke;
 }
 
 /* ----------------- End Contact Section -------------------*/
@@ -186,7 +187,39 @@ footer a {
 /* ----------------- End Footer Section -------------------*/
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {} 
+@media only screen and (min-width: 768px) {
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    li a:hover {
+        color: #66FCF1;
+    }
+
+
+    .projects {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .projectRow {
+        display: flex;
+        flex-direction: column;
+        width: 24vw;
+    }
+
+    .projectRow img {
+        max-width: 26vw;
+    }
+
+    .portfolio h1 {
+        text-align: center;
+        vertical-align: center;
+    }
+} 
 
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {} 
